@@ -1,0 +1,98 @@
+body {
+  font-family: Helvetica;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+#outline{ background-color: rgb(244, 248, 249); width:875px; padding:15px; }
+
+#container {
+  background-color: rgb(255, 255, 255);
+  padding:40px;
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 10px;
+}
+
+.tweet{
+  background:        rgb(255, 255, 255);
+  border:            rgb(225, 232, 237);
+  text:              rgb(0, 0, 0);
+  bottom text color: rgb(105, 120, 130);
+}
+
+.profile {
+    height: 72px;
+}
+
+.profile-pic{
+  float: left;
+}
+
+.info-account{
+  float: left;
+  padding-left: 25px;
+}
+
+.info-account p{
+  margin: 0px;
+}
+
+.name{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.info-account .nick{
+  font-size:20px;
+  margin-top: 9px;
+}
+
+.follow{
+  float: right;
+}
+
+/*.actions{
+clear: both;
+}*/
+
+.text{
+  margin-top: 10px;
+}
+.wrap-text{
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.date {
+  color: rgb(101, 116, 127);
+  margin-top: 5px;
+}
+#bottom {
+    color: rgb(104, 109, 129);
+}
+
+.reply,.retweet,.favorite
+{
+  margin-right: 35px;
+}
+.follow
+{
+  border:2px solid rgb(85, 172, 238);
+  border-radius: 10px;
+  float: right;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(85, 172, 238);
+
+}
+.follow-pic
+{
+  float: left;
+  margin: 1px 0px 0px 7px;
+
+}
+.follow-text
+{
+  float: left;
+  margin: 2px 0px 0px 10px;
+}
